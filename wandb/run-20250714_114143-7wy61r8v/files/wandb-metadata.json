@@ -1,0 +1,203 @@
+{
+    "os": "Linux-5.15.0-113-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2025-07-14T10:41:44.590511",
+    "startedAt": "2025-07-14T10:41:43.978976",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--csv",
+        "./camelyon16.csv",
+        "--h5_path",
+        "./patch_feats_pretrain_natural_supervised.h5"
+    ],
+    "state": "running",
+    "program": "-m oodml.train",
+    "host": "otter60.eps.surrey.ac.uk",
+    "username": "rk01337",
+    "executable": "/vol/research/scratch1/NOBACKUP/rk01337/ACMIL/acmil/bin/python3",
+    "cpu_count": 24,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 1999.6823125,
+        "min": 800.0,
+        "max": 4787.5
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 1989.834,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 5600.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 5600.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 5600.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 5600.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 2000.0,
+            "min": 800.0,
+            "max": 4200.0
+        }
+    ],
+    "disk": {
+        "total": 245.01800918579102,
+        "used": 130.56046295166016
+    },
+    "gpu": "NVIDIA RTX A4000",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA RTX A4000",
+            "memory_total": 17171480576
+        }
+    ],
+    "memory": {
+        "total": 62.4854736328125
+    }
+}
