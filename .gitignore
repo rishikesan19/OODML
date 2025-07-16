@@ -4,3 +4,6 @@ wandb/
 data/
 # Ignore checkpoints
 checkpoints/
+# Ignore pycache files
+__pycache__/
+*.pyc
