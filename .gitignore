@@ -1,0 +1,4 @@
+# Ignore all wandb logs and runs
+wandb/
+# Ignore all data files
+data/
