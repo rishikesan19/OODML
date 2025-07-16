@@ -2,3 +2,5 @@
 wandb/
 # Ignore all data files
 data/
+# Ignore checkpoints
+checkpoints/
